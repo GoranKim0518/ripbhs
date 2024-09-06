@@ -52,7 +52,7 @@ const w = 864;
 //오디오 플레이
 const btn1 = document.querySelector("#btn1");
 btn1.addEventListener("click",function() {
-	const audio1 = new Audio("/works/Ditto.mp3");
+	const audio1 = new Audio("Ditto.mp3");
   	audio1.loop = true; 
   	audio1.volume = 0.4;
   	audio1.play(); 
